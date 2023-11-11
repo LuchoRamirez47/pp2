@@ -176,6 +176,31 @@ button {
     
 }
 
+#nosotros {
+    background-color: #f01c23; /* Fondo blanco */
+    color: #fff; /* Texto en color rojo */
+    text-align: center;
+    padding: 40px;
+}
+
+#nosotros .container {
+    max-width: 800px; /* Ajusta según sea necesario */
+    margin: 0 auto;
+}
+
+#nosotros h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#nosotros p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+
+
+
 .footer {
     background-color: #fff; 
     color: #f01c23; /* Cambiado a letras rojas */
