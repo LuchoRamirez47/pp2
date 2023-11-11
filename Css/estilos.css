@@ -1,24 +1,24 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-/* Estilos generales */
+
 body {
-    background-color: #f7f7f7; /* Fondo gris claro */
-    color: #333; /* Color de texto principal */
+    background-color: #f7f7f7; 
+    color: #333; 
     font-family: Arial, sans-serif;
 }
 
 a {
     text-decoration: none;
-    color: #f01c23; /* Color de enlace rojo */
+    color: #f01c23; 
 }
 
 /* Encabezado */
 header {
-    background-color: #fff; /* Fondo blanco */
-    padding: 20px 0;
+    background-color: #fff; 
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,60 +30,164 @@ header {
 
 .nav-link {
     margin: 0 20px;
-    font-weight: bold; /* Texto en negrita */
+    font-weight: bold; 
 }
 
-/* Secciones */
 section {
     padding: 40px;
 }
 
+/* Estilos para el banner1 */
 #banner1 {
-    background-color: #fff; /* Fondo blanco */
-    color: #f01c23; /* Color de texto rojo */
+    background-color: #f01c23;
+    color: #fff;
     text-align: center;
+    padding: 40px;
 }
 
+/* Estilos para el contenido dentro del banner1 */
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos para la imagen dentro del banner1 */
+.image-container img {
+    width: 100%; /* O el valor que desees */
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilos para el texto dentro del banner1 */
+.text-container {
+    max-width: 100%;
+}
+
+/* Estilos para el título dentro del banner1 */
+.text-container h1 {
+    font-size: 4em; /* Ajusta el tamaño del título */
+    margin-bottom: 5px;
+   
+}
+
+.text-container p {
+    font-size: 1.3em; 
+    margin-bottom: 20px;
+}
+
+
+
+/* Estilos para el banner2 */
 #banner2 {
-    background-color: #f01c23; /* Fondo rojo */
-    color: #fff; /* Color de texto blanco */
-    text-align: center;
-}
-
-#banner3 {
     background-color: #fff; /* Fondo blanco */
-    color: #f01c23; /* Color de texto rojo */
+    color: #f01c23; /* Texto en color rojo */
     text-align: center;
+    padding: 40px;
 }
 
-/* Botones */
-button {
+/* Estilos para el contenedor de la sección banner2 */
+#banner2 .container {
+    display: flex;
+    flex-direction: row-reverse; /* Invierte la dirección de los elementos en el contenedor */
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para la imagen dentro del banner2 */
+#banner2 .img-container2 img {
+    width: 100%; /* O el valor que desees */
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#banner2 h2 {
+    font-size: 4em;
+    margin-bottom: 5px;
+}
+
+#banner2 p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el botón de WhatsApp dentro del banner2 (se mantiene igual) */
+#banner2 .whatsapp-button {
     background-color: #f01c23; /* Fondo rojo */
-    color: #fff; /* Texto blanco */
+    color: #fff; /* Texto en color blanco */
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#banner2 .whatsapp-button:hover {
+    background-color: #fff;
+    color: #f01c23;
+}
+
+
+
+button {
+    background-color: #fff; 
+    color: #f01c23; 
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
+#banner3 {
+    background-color: #f01c23;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
 
-button:hover {
-    background-color: #f01c23; 
+/* Estilos para el contenido dentro del banner1 */
+#banner3 .banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
+/* Estilos para el texto dentro del banner1 */
+#banner3 .text-container {
+    max-width: 100%;
+}
+
+/* Estilos para el título dentro del banner1 */
+#banner3 .text-container h3 {
+    font-size: 3em; /* Ajusta el tamaño del título */
+    margin-bottom: 5px;
+   
+}
+
+#banner3 .text-container p {
+    font-size: 1.3em; 
+    margin-bottom: 20px;
+}
+#banner3 iframe {
+    width: 100%;
+    height: 50%;
+    
+}
+
 .footer {
-    background-color: #f01c23; 
-    color: #fff; 
+    background-color: #fff; 
+    color: #f01c23; /* Cambiado a letras rojas */
     padding: 20px 0;
     text-align: center;
+    font-weight: bold;
 }
 
 .footer a {
-    color: #fff; 
+    color: #f01c23; /* Cambiado a letras rojas */
     margin-right: 10px;
 }
-
 
 .fa-facebook-f, .fa-instagram, .fa-whatsapp {
     font-size: 24px; 
