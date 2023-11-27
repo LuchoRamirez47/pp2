@@ -3,13 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: #f7f7f7; 
     color: #333; 
     font-family: Arial, sans-serif;
 }
-
 a {
     text-decoration: none;
     color: #f01c23; 
@@ -23,54 +21,42 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
 .logo img {
     max-width: 250px;
 }
-
 .nav-link {
     margin: 0 20px;
     font-weight: bold; 
 }
-
 section {
     padding: 40px;
 }
 
-/* Estilos para el banner1 */
+/* Banner1 */
 #banner1 {
     background-color: #f01c23;
     color: #fff;
     text-align: center;
     padding: 40px;
 }
-
-/* Estilos para el contenido dentro del banner1 */
 .banner-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
-/* Estilos para la imagen dentro del banner1 */
-.image-container img {
-    width: 100%; /* O el valor que desees */
+.img-container img {
+    width: 100%; 
     height: 100%;
     object-fit: cover;
 }
-
-/* Estilos para el texto dentro del banner1 */
 .text-container {
     max-width: 100%;
 }
-
-/* Estilos para el título dentro del banner1 */
 .text-container h1 {
-    font-size: 4em; /* Ajusta el tamaño del título */
+    font-size: 4em; 
     margin-bottom: 5px;
    
 }
-
 .text-container p {
     font-size: 1.3em; 
     margin-bottom: 20px;
@@ -78,58 +64,45 @@ section {
 
 
 
-/* Estilos para el banner2 */
+/* Banner2 */
 #banner2 {
-    background-color: #fff; /* Fondo blanco */
-    color: #f01c23; /* Texto en color rojo */
+    background-color: #fff; 
+    color: #f01c23; 
     text-align: center;
     padding: 40px;
 }
-
-/* Estilos para el contenedor de la sección banner2 */
 #banner2 .container {
     display: flex;
-    flex-direction: row-reverse; /* Invierte la dirección de los elementos en el contenedor */
+    flex-direction: row-reverse; 
     justify-content: space-between;
     align-items: center;
 }
-
-/* Estilos para la imagen dentro del banner2 */
 #banner2 .img-container2 img {
-    width: 100%; /* O el valor que desees */
+    width: 100%; 
     height: 100%;
     object-fit: cover;
 }
-
-
 #banner2 h2 {
     font-size: 4em;
     margin-bottom: 5px;
 }
-
 #banner2 p {
     font-size: 1.3em;
     margin-bottom: 20px;
 }
-
-/* Estilos para el botón de WhatsApp dentro del banner2 (se mantiene igual) */
 #banner2 .whatsapp-button {
-    background-color: #f01c23; /* Fondo rojo */
-    color: #fff; /* Texto en color blanco */
+    background-color: #f01c23; 
+    color: #fff; 
     padding: 10px 20px;
     text-decoration: none;
     display: inline-block;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
-
 #banner2 .whatsapp-button:hover {
     background-color: #fff;
     color: #f01c23;
 }
-
-
-
 button {
     background-color: #fff; 
     color: #f01c23; 
@@ -139,33 +112,28 @@ button {
     border-radius: 5px;
     transition: background-color 0.3s;
 }
+
+
+
+/* Banner3 */
 #banner3 {
     background-color: #f01c23;
     color: #fff;
     text-align: center;
     padding: 40px;
 }
-
-/* Estilos para el contenido dentro del banner1 */
 #banner3 .banner-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
-
-/* Estilos para el texto dentro del banner1 */
 #banner3 .text-container {
     max-width: 100%;
 }
-
-/* Estilos para el título dentro del banner1 */
 #banner3 .text-container h3 {
-    font-size: 3em; /* Ajusta el tamaño del título */
+    font-size: 3em; 
     margin-bottom: 5px;
-   
 }
-
 #banner3 .text-container p {
     font-size: 1.3em; 
     margin-bottom: 20px;
@@ -176,107 +144,187 @@ button {
     
 }
 
+
+
+
+/* Sobre Nosotros */
 #nosotros {
-    background-color: #f01c23; /* Fondo blanco */
-    color: #fff; /* Texto en color rojo */
+    background-color: #f01c23; 
+    color: #fff; 
     text-align: center;
     padding: 40px;
 }
-
 #nosotros .container {
-    max-width: 800px; /* Ajusta según sea necesario */
+    max-width: 800px; 
     margin: 0 auto;
 }
-
 #nosotros h1 {
     font-size: 3em;
     margin-bottom: 20px;
 }
-
 #nosotros p {
     font-size: 1.3em;
     margin-bottom: 20px;
 }
 
 
+
+
+/*Galeria*/
 #galeria {
-    background-color: #f01c23; /* Cambia el color de fondo según tu paleta */
+    background-color: #f01c23; 
     padding: 40px 0;
 }
-
 #galeria .container {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 #galeria .galeria {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
 #galeria .imagen {
     margin: 10px;
-    overflow: hidden;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
-    width: 250px; /* Ajusta el ancho según tus preferencias */
-    height: 250px; /* Ajusta la altura según tus preferencias */
+    width: 250px; 
+    height: 250px; 
 }
-
 #galeria .imagen:hover {
-    transform: scale(1.1); /* Ajusta la escala para un agrandamiento más pronunciado */
+    transform: scale(1.21); 
 }
-
 #galeria .imagen img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
 }
+#galeria .imagen.ampliada {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#galeria .imagen.ampliada img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 
 
 
 
 
+/* Contacto */
+#contacto {
+    background-color: #f01c23; /* Cambiado a rojo */
+    color: #fff; /* Texto en blanco */
+    text-align: center;
+    padding: 40px 0;
+}
 
+#contacto h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#contacto p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #fff; /* Fondo blanco para el botón */
+    color: #f01c23; /* Texto rojo para el botón */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+form button:hover {
+    background-color: #a6191e; /* Cambiado a rojo en hover */
+    color: #fff;
+}
+
+#contacto .google-link {
+    font-weight: bold;
+    font-size: 1.2em; /* Ajusta el tamaño según tus preferencias */
+    text-decoration: none;
+    display: inline-block;
+    color: #4285F4; /* Color azul del logo de Google */
+    transition: color 0.3s; /* Agrega una transición suave al cambio de color */
+}
+
+#contacto .google-link:hover {
+    color: #3367D6; /* Color alternativo al pasar el ratón */
+}
+
+
+
+
+
+
+/*footer*/
 .footer {
     background-color: #fff; 
-    color: #f01c23; /* Cambiado a letras rojas */
+    color: #f01c23; 
     padding: 20px 0;
     text-align: center;
     font-weight: bold;
 }
-
 .footer a {
-    color: #000000; /* Cambiado a letras rojas */
+    color: #000000; 
     margin-right: 10px;
 }
-
 .fa-facebook-f {
     color: #3b5998;
-    font-size: 24px; /* Azul de Facebook */
+    font-size: 35px; 
+}.fa-facebook-f:hover {
+    color: #1877f2; 
 }
-
-.fa-facebook-f:hover {
-    color: #1877f2; /* Azul más oscuro al pasar el mouse */
-}
-
 .fa-instagram {
     color: #833ab4;
-    font-size: 24px; /* Morado */
+    font-size: 35px; 
 }
-
 .fa-instagram:hover {
-    color: #fd1d1d; /* Naranja al pasar el mouse */
+    color: #fd1d1d; 
 }
 .fa-whatsapp {
     color: #25d366;
-    font-size: 24px; /* Verde de WhatsApp */
+    font-size: 35px; 
 }
-
 .fa-whatsapp:hover {
-    color: #128c7e; /* Verde más oscuro al pasar el mouse */
+    color: #128c7e; 
 }
