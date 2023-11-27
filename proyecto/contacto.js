@@ -10,11 +10,21 @@ document.addEventListener('DOMContentLoaded', function () {
         const mensaje = document.getElementById('mensaje').value;
 
         if (nombre.trim() === '' || email.trim() === '' || mensaje.trim() === '') {
-            alert('Por favor, completa todos los campos del formulario.');
+            // Mostrar alerta de formulario incompleto
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Por favor, completa todos los campos del formulario.'
+            });
         } else {
+            // Mostrar alerta de formulario enviado correctamente
+            Swal.fire({
+                icon: 'success',
+                title: '¡Mensaje enviado!',
+                text: 'Tu mensaje ha sido enviado correctamente.'
+            });
             
-            alert('Mensaje enviado correctamente.');
-            
+            // Puedes agregar aquí la lógica para enviar el formulario a tu servidor
         }
     });
 });

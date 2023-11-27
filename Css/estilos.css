@@ -21,12 +21,25 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 .logo img {
-    max-width: 250px;
+    max-width: 200px; /* Ajusta el tamaño del logo */
 }
+.logo:hover {
+    transform: scale(1.1); /* Cambia el tamaño al 110% del tamaño original */
+    transition: transform 0.3s; /* Añade una transición suave */
+}
+
 .nav-link {
-    margin: 0 20px;
+    margin: 0 10px;
     font-weight: bold; 
+    font-size: 17px; /* Ajusta el tamaño del texto del enlace */
+    transition: color 0.3s; /* Agrega una transición suave al cambio de color */
+    color: #f01c23; /* Color original del texto */
+}
+
+.nav-link:hover {
+    color: #000; /* Color al pasar el ratón */
 }
 section {
     padding: 40px;
@@ -48,6 +61,10 @@ section {
     width: 100%; 
     height: 100%;
     object-fit: cover;
+}
+.img-container:hover{
+    transform: scale(1.1); /* Cambia el tamaño al 110% del tamaño original */
+    transition: transform 0.3s; /* Añade una transición suave */
 }
 .text-container {
     max-width: 100%;
@@ -78,9 +95,13 @@ section {
     align-items: center;
 }
 #banner2 .img-container2 img {
-    width: 100%; 
-    height: 100%;
+    width: 90%; 
+    height: 90%;
     object-fit: cover;
+}
+#banner2 .img-container2:hover{
+    transform: scale(1.1); /* Cambia el tamaño al 110% del tamaño original */
+    transition: transform 0.3s; /* Añade una transición suave */
 }
 #banner2 h2 {
     font-size: 4em;
@@ -283,7 +304,7 @@ form button:hover {
     font-size: 1.2em; /* Ajusta el tamaño según tus preferencias */
     text-decoration: none;
     display: inline-block;
-    color: #4285F4; /* Color azul del logo de Google */
+    color: #fff; /* Color azul del logo de Google */
     transition: color 0.3s; /* Agrega una transición suave al cambio de color */
 }
 
@@ -305,9 +326,14 @@ form button:hover {
     font-weight: bold;
 }
 .footer a {
-    color: #000000; 
+    color: #f01c23; 
     margin-right: 10px;
 }
+
+.footer a:hover{
+    color:#000
+}
+
 .fa-facebook-f {
     color: #3b5998;
     font-size: 35px; 
